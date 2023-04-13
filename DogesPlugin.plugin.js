@@ -1,10 +1,21 @@
+/**!
+ * @name Spotify Lyrics Rich Presence
+ * @description Sets spotify lyrics to status
+ * @version 1
+ * @author Doge_KingYT1
+ * @website https://github.com/DogeKingYT1/BetterDiscord-Spotify-Plugin
+ * @source https://github.com/DogeKingYT1/BetterDiscord-Spotify-Plugin
+ * @updateUrl https://github.com/DogeKingYT1/BetterDiscord-Spotify-Plugin/blob/main/DogesPlugin.plugin.js
+ */
+
+
 // Get metadata
 const meta = require('./metadata.json');
 
 // Authenticate with the Spotify API and obtain an access token
 // (this code assumes you already have a client ID and client secret)
-const clientID = 'YOUR_CLIENT_ID_HERE';
-const clientSecret = 'YOUR_CLIENT_SECRET_HERE';
+const clientID = '';
+const clientSecret = '';
 const tokenEndpoint = 'https://accounts.spotify.com/api/token';
 let accessToken = '';
 
